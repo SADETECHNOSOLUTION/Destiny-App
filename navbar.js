@@ -50,13 +50,8 @@ const Navbar = () => {
           <Ionicons name="add" size={24} color="white" />
         </TouchableOpacity>
 
-        <TouchableOpacity onPress={() => navigation.navigate('Notification')}>
-<Ionicons 
-  name={route.name==="Notification"?"notifications":"notifications-outline"} 
-  size={24} 
-  color={route.name === "Notification" ? "#5CBE8F" : "gray"} 
-/>                 {notificationCount > 0 && <View style={styles.badge}><Text style={styles.badgeText}>{notificationCount}</Text></View>}
-        </TouchableOpacity>
+              <Ionicons onPress={()=>{navigation.navigate('Messagelist')}} name="chatbubble-ellipses-outline" size={22} color="gray" />
+     
 
 
 
