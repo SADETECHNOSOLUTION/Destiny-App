@@ -12,6 +12,7 @@ import { Ionicons } from '@expo/vector-icons';
 const Home = () => {
   const [activesection, setActiveSection] = useState('personal');
   const [isDarkMode, setIsDarkMode] = useState(false);
+  const [notificationCount, setNotificationCount] = useState(0);
 
   const navigation = useNavigation();
   const route = useRoute();
@@ -46,10 +47,15 @@ const Home = () => {
               // This tells React Native to paint the image white
            }} 
          />
-         <View style={{flexDirection:'row',gap:40}}>
-         <Ionicons onPress={()=>{navigation.navigate('Search')}} name="search-outline" size={22} color="black" />
-         <Ionicons onPress={()=>{navigation.navigate('Messagelist')}} name="chatbubble-ellipses-outline" size={20} color="black" />
-
+         <View style={{flexDirection:'row',gap:30,alignItems:'center'}}>
+         <Ionicons onPress={()=>{navigation.navigate('Search')}} name="search-outline" size={22} color="gray" />
+        <TouchableOpacity onPress={() => navigation.navigate('Notification')}>
+<Ionicons 
+  name={route.name==="Notification"?"notifications":"notifications-outline"} 
+  size={22} 
+  color={route.name === "Notification" ? "#5CBE8F" : "gray"} 
+/>                 {notificationCount > 0 && <View style={styles.badge}><Text style={styles.badgeText}>{notificationCount}</Text></View>}
+        </TouchableOpacity>
          </View>
         </View>
     <ScrollView 
