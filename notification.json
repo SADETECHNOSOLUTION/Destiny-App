@@ -1,0 +1,12 @@
+{
+    "notification": [
+      { "id": 1,"name":"Danny Lovren","img":"profile.jpg","target":"post.jfif", "notification": "Liked your post", "time": "4 mins ago" },
+      { "id": 2,"name":"Pepe","img":"profile.jpg","target":"confetti.png", "notification": "Celebrating his birthday today", "time":"2 hrs ago"},
+      { "id": 3,"name":"Danny Lovren","img":"profile.jpg","target":"post.jfif", "notification": "Liked your post", "time": "4 mins ago" },
+      { "id": 4,"name":"Danny Lovren","img":"profile.jpg","target":"post.jfif", "notification": "Liked your post", "time": "4 mins ago" },
+      { "id": 5,"name":"Pepe","img":"profile.jpg","target":"confetti.png", "notification": "Celebrating his birthday today", "time":"2 hrs ago"},
+      { "id": 6,"name":"Danny Lovren","img":"profile.jpg","target":"post.jfif", "notification": "Liked your post", "time": "4 mins ago" },
+      { "id": 7,"name":"Danny Lovren","img":"profile.jpg","target":"post.jfif", "notification": "Liked your post", "time": "4 mins ago" },
+      { "id": 8,"name":"Pepe","img":"profile.jpg","target":"confetti.png", "notification": "Celebrating his birthday today", "time":"2 hrs ago"}
+    ]
+  }

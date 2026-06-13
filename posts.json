@@ -1,0 +1,22 @@
+[
+    {
+        "id":1,
+        "dp":"author.jpg",
+        "name":"Antony",
+        "caption":"Nam Eget Dui. Etiam Rhoncus. Maecenas Tempus, Tellus Eget Condimentum Rhoncus, Sem Quam Semper Libero, Sit Amet Adipiscing Sem Neque Sed Ipsum. Nam Quam Nunc",
+        "media": {
+            "type": "image",
+            "path": "post.jpg"
+        }
+    },
+    {
+        "id":2,
+        "dp":"author.jpg",
+        "name":"George",
+        "caption":"Nam Eget Dui. Etiam Rhoncus. Maecenas Tempus, Tellus Eget Condimentum Rhoncus, Sem Quam Semper Libero, Sit Amet Adipiscing Sem Neque Sed Ipsum. Nam Quam Nunc",
+        "media": {
+            "type": "video",
+            "path": "rec.mp4"
+        }
+    }
+]

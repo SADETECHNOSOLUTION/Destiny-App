@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"name": "store",
+			"path": "../demo-repository-stage-main-mweb/src/store"
+		},
+		{
+			"name": "my-simple-app",
+			"path": "."
+		},
+		{
+			"name": "slices",
+			"path": "../demo-repository-stage-main-mweb/src/slices"
+		}
+	],
+	"settings": {}
+}
